@@ -1065,13 +1065,6 @@ mvn test
 ```
 ![Setting the Scheme](images/device-matching-backend-service13.PNG)
 
-![Setting the Scheme](images/device-matching-backend-service14.PNG)
-
-![Setting the Scheme](images/device-matching-backend-service15.PNG)
-
-![Setting the Scheme](images/device-matching-backend-service16.PNG)
-
-![Setting the Scheme](images/device-matching-backend-service17.PNG)
 ```
 java.lang.IllegalArgumentException: Device.osName: expected CombinedQueryParam, instead got String
 	at org.springframework.data.aerospike.repository.query.AerospikeQueryCreator.create(AerospikeQueryCreator.java:99) ~[spring-data-aerospike-4.8.0.jar:na]
@@ -1097,6 +1090,15 @@ java.lang.IllegalArgumentException: Device.osName: expected CombinedQueryParam, 
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 
  ```
+![Setting the Scheme](images/device-matching-backend-service14.PNG)
+
+### After Fixing the dependencies compatibility issue
+
+![Setting the Scheme](images/device-matching-backend-service15.PNG)
+
+![Setting the Scheme](images/device-matching-backend-service16.PNG)
+
+![Setting the Scheme](images/device-matching-backend-service17.PNG)
 
 To create test cases for the `DeviceService` class, you can use JUnit and Mockito for unit testing. Below is an example of how to structure your test cases for each method in the `DeviceService` class.
 
