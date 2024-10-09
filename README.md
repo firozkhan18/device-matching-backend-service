@@ -53,7 +53,7 @@ When a new request comes with the same identifiers (OS name, OS version, Browser
 
 - Include a brief Documentation file explaining how to set up, run, and test the application.
 
-[Implemenation Documentation](documents/Documentation.md)
+[Implementation Documentation](documents/Documentation.md)
 
 ## Deliverables
 
